@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import UserTestimonial from "./components/UserTestimonial";
 import Cards from "./components/Cards";
 import { CardData } from "./constants/constants";
+import Solutions from "./components/Solutions";
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
           ))}
         </div>
       </div>
-
-      {/* <Cards CardData={CardData} /> */}
+      <Solutions />
     </div>
   );
 }
