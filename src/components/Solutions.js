@@ -115,6 +115,9 @@ const Solutions = () => {
             </div>
           </div>
         </div>
+        <div className="texture">
+            <img src={texture} alt="" />
+        </div>
       </div>
     </>
   );
