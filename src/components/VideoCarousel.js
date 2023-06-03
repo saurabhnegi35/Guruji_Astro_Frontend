@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { CarouselImage } from "../constants";
+import { CarouselImage } from "../constants/constants";
 
 const carouselImages = [
   CarouselImage.left1,
@@ -70,7 +70,7 @@ const VideoCarousel = () => {
             >
               <img src={image} alt="" />
               <div className="play-btn-cont">
-                <img src={CarouselImage.playButton} />
+                <img src={CarouselImage.playButton} alt="Play Button" />
               </div>
             </div>
           ))}
