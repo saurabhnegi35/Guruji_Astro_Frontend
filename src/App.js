@@ -4,6 +4,7 @@ import UserTestimonial from "./components/UserTestimonial";
 import Cards from "./components/Cards";
 import { CardData } from "./constants/constants";
 import Solutions from "./components/Solutions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </div>
       </div>
       <Solutions />
+      <Footer />
     </div>
   );
 }
