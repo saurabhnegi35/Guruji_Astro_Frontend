@@ -172,7 +172,7 @@
 .user-testimonial {
   width: 80vw;
   margin: auto;
-  height: 100vh;
+  height: 135vh;
   background-color: #ffefe3;
 }
 
@@ -195,6 +195,16 @@
   text-align: center;
 }
 
+.img-banner {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.user-testimonial-dot {
+  margin: auto;
+  margin-top: 10px;
+  gap: 10px;
+}
 /* Video Carousel */
 
 .video-carousel {
